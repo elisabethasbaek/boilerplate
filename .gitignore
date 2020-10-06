@@ -1,5 +1,7 @@
+# My own additions
 .DS_Store
 .vscode
+node_modules
 
 # Logs
 logs
