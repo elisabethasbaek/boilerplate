@@ -5,7 +5,7 @@ var sourcemap = require ("gulp-sourcemaps");
 var cleanCSS = require("gulp-clean-css");
 var resize = require("gulp-image-resize");
 var babel = require("gulp-babel");
-var concat = require("gulp-concat");  //alle javascriptfiler i src-mappen sættes sammen til én fil
+var concat = require("gulp-concat");  //alle javascriptfiler i src-mappen sættes sammen til én fil, så man behøver ikke import/export
 
 function processHTML(){
     return gulp.src("src/html/**/*.html")
